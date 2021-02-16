@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  text-decoration: none !important;
+}
+.leme {
+  background: red;
+  height: 100vh;
+  z-index: 1000;
+}
+.firstCon {
+  background: rgba(255, 255, 255, 0.938);
+}
+.firstCon > .row > .navbarek {
+  height: 8.99vh;
+  background: #fff;
+  z-index: 100;
+  position: fixed;
+}
+nav > ul {
+  margin-top: 2rem;
+}
+nav > ul > li {
+  display: inline-block;
+}
+nav > ul > li > a {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: black;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+nav > ul > li > a:hover {
+  color: #5c5c5c;
+}
+
+.firstCon > .row > .colText {
+  height: 90vh;
+  background: #fff;
+  overflow: none;
+}
+.firstCon > .row > .colImg {
+  height: 90vh;
+  background: #fff;
+  overflow: hidden;
+}
+
+.firstCon > .row > .colImg > .firstImage {
+  height: 1000px;
+  margin-top: 8rem;
+}
+
+.nadpis-1 {
+  margin-top: 6rem;
+  z-index: 3;
+}
+
+.nadpis-2 {
+  font-size: 10rem;
+  z-index: 2;
+  margin-top: 10rem;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0rem;
+  z-index: 10;
+}
+
+.zkouska {
+  height: 100vh;
+  background: #1c1c1c;
+  z-index: 100;
+}
+
+.text2 {
+  height: 100vh;
+}
+.img2 {
+  height: 100vh;
+}
+
+.podnadpis1 {
+  margin-top: 30vh;
+  color: #1c1c1c;
+  font-family: "Oswald", sans-serif;
+}
+.podnadpis2 {
+  margin-top: -0.75rem;
+  font-size: 1.3rem;
+  color: #1c1c1c;
+  font-family: "Arimo", sans-serif;
+}
+.textPod1 {
+  padding: 0.5rem 6rem 0 6rem;
+  color: #1c1c1c;
+  font-family: "Titillium Web", sans-serif;
+  word-spacing: 2px;
+  letter-spacing: -0.5px;
+  z-index: 1000;
+}
+.video-con {
+  height: 500px;
+  margin-top: 12rem;
+  filter: grayscale(100%);
+}
+.btn {
+  background: #1c1c1c;
+  border-radius: 25px;
+  padding: 0.2rem 4rem 0.2rem 4rem;
+  font-size: 20px;
+  margin-top: 1.5rem;
+  color: #fff;
+  --animate-duration: 1.5s;
+}
+.btn:hover {
+  background: black;
+  color: #fff;
+}
+hr {
+  margin-left: 6rem;
+  margin-right: 6rem;
+}
+
+.tribute {
+  height: 60vh;
+}
+.nadpisTribute {
+  height: 10vh;
+}
+.nadpisTribute > h1 {
+  font-family: "Oswald", sans-serif;
+}
+.nadpisTribute > p {
+  padding-left: 37%;
+  padding-right: 37%;
+  color: #1c1c1c;
+  font-family: "Titillium Web", sans-serif;
+  word-spacing: 2px;
+  letter-spacing: -0.5px;
+  z-index: 1000;
+}
+.rip {
+  height: 800px;
+  position: absolute;
+  left: 35.75rem;
+  top: -13.75rem;
+}
+.obrazek1 {
+  height: 50vh;
+  background: url("images/shame.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+.galerie > .row > .col-3 {
+  height: auto;
+  padding-top: 2rem;
+}
+
+footer {
+  background: #15171a;
+}
+.fotr1 {
+  height: 30vh;
+  background: #15171a;
+}
+
+.fotr2 {
+  height: 30vh;
+  background: #15171a;
+}
+.fotr3 {
+  height: 30vh;
+  background: #15171a;
+}
+.fotr2 > h1 {
+  font-family: "Oswald", sans-serif;
+  margin-top: 3.5rem;
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: #fff;
+}
+.fotr2 > p {
+  padding-left: 10%;
+  padding-right: 10%;
+  line-height: 1rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  color: #fff;
+}
+.fotr2 > a {
+  padding: 0 1rem 0 1rem;
+  margin-top: 1rem;
+  color: #e6e6e6;
+}
+.fotr2 > a:hover {
+  color: #fff;
+}
+
+.fotr3 > .box-ql > ul > li > a {
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  color: #fff;
+}
+.fotr3 > .box-ql > ul > li > a:hover {
+  color: #ebebeb;
+}
+.fotr3 > .box-ql > ul {
+  margin-top: 4rem;
+  margin-left: 9rem;
+}
+.fotr3 > .box-ql > ul > li {
+  line-height: 1.85rem;
+}
+.copy {
+  height: 7vh;
+}
+.copy > p {
+  color: #fff;
+  margin-top: 1.5rem;
+}
+.fotr1 > h1 {
+  font-family: "Oswald", sans-serif;
+  margin-top: 3.5rem;
+  font-size: 30px;
+  letter-spacing: 5px;
+  color: #fff;
+}
+.fotr1 > ul > li > a {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+.fotr1 > ul > li > a:hover {
+  color: #ebebeb;
+}
+.fotr1 > ul > li > a {
+  padding-left: 1rem;
+  padding-top: 0.5rem;
+}
+.fotr1 > ul > li > i {
+  color: #fff;
+}
+.fotr1 > ul {
+  margin-left: 6rem;
+  margin-top: 1.5rem;
+}
